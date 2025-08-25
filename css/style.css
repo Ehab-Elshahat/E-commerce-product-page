@@ -58,7 +58,7 @@ nav {
 nav .toggler {
   width: 20px;
   height: 20px;
-  background-image: url(/images/icon-menu.svg);
+  background-image: url(../images/icon-menu.svg);
   background-repeat: no-repeat;
   background-size: contain;
   cursor: pointer;
@@ -80,7 +80,7 @@ nav .nav-links {
   margin: 20px;
   cursor: pointer;
   display: block;
-  background-image: url(/images/icon-close.svg);
+  background-image: url(../images/icon-close.svg);
   background-repeat: no-repeat;
   display: none;
 }
@@ -336,6 +336,13 @@ main {
 }
 .product-gallery {
   padding-right: 30px;
+}
+@media (max-width: 768px) {
+  .product-gallery {
+    padding-right: 0;
+   
+  }
+  
 }
 .product-gallery .hero-img {
   cursor: pointer;
