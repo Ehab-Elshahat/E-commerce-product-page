@@ -72,7 +72,7 @@ const previous = document.querySelector(".previous");
 // get large image that high qulity  ass Array
 
 const totalImage = 5;
-const imagePath = "/images/";
+const imagePath = "images/";
 const imagePaths = [];
 for (let i = 1; i < totalImage; i++) {
   const image = `${imagePath}image-product-${i}.jpg`;
